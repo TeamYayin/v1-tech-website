@@ -11,7 +11,7 @@ export default function ContactForm() {
           ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
           mattis sagittis.
         </p>
-        <form method="post" action="https://formspree.io/xknqkkwd">
+        <form method="post" action="https://formspree.io/mrgyrdgl">
           <div className="fields">
             <div className="field half">
               <input type="text" name="name" id="name" placeholder="Name" />

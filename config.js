@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   // pathPrefix: This path is subpath of your hosting https://domain/pathPrefix
 
-  heading: 'Peter Parker',
+  heading: 'Yayin AI Labs',
   subHeading: 'High School Kid & Part time Web Slinger',
 
   // social media likes add your channels
@@ -17,30 +17,25 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/#',
+      url: 'https://github.com/TeamYayin',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/#',
+      url: 'https://twitter.com/yayinlabs',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/#',
+      url: 'https://facebook.com/awashedupnerd',
     },
     {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
       url: 'https://linkedin.com/#',
     },
-    {
-      icon: 'fa-instagram',
-      name: 'Instagram',
-      url: 'https://instagram.com/#',
-    },
   ],
-  emailId: 'peter.parker@example.com',
-  phone: '+12018239123', //
-  address: 'Midtown High, New York City, USA',
+  emailId: 'ask@yayinailab.tech',
+  phone: '+1‪9294631030‬',
+  address: 'Hyderabad, TG, India',
 }

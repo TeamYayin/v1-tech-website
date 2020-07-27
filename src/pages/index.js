@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import SideFooter from '../components/SideFooter'
 
-import heroImage from '../assets/img/pic01.jpg'
+import heroImage from '../assets/img/randomCode.png'
 import pic2 from '../assets/img/pic02.jpg'
 import Gallery from '../components/Gallery'
 import ContactForm from '../components/ContactForm'
@@ -115,7 +115,7 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Skills</h2>
+          <h2>Services & Skills</h2>
         </header>
         <div className="content">
           <p>
@@ -141,7 +141,7 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Projects</h2>
+          <h2>What We Do</h2>
         </header>
         <div className="content">
           <p>
@@ -152,7 +152,7 @@ const IndexPage = () => (
           <section>
             <header>
               <a href="https://www.example.com" className="large">
-                <h3>Iron Spider</h3>
+                <h3>A Washedup Nerd Blog</h3>
               </a>
               <p>
                 Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
@@ -169,7 +169,7 @@ const IndexPage = () => (
           <section>
             <header>
               <Link to="/Elements" className="large">
-                <h3>Ultimate Spiderman</h3>
+                <h3>Makers Products</h3>
               </Link>
               <p>
                 Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
@@ -188,7 +188,7 @@ const IndexPage = () => (
           <section>
             <header>
               <Link to="/Elements" className="large">
-                <h3>Amazing Spiderman</h3>
+                <h3>Modifoils.com</h3>
               </Link>
               <p>
                 Proin aliquam facilisis ante interdum. Sed nulla amet lorem
@@ -208,25 +208,13 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>About Me</h2>
+          <h2>About Us</h2>
         </header>
         <div className="content">
           <p>
             <strong>Elements</strong> This starter contains all elements for a
             page. Check it out
           </p>
-          <ul className="actions">
-            <li>
-              <Link to="/Elements" className="button primary large">
-                Goto Elements Page
-              </Link>
-            </li>
-            <li>
-              <a href="https://example.com" className="button large">
-                Go Outside
-              </a>
-            </li>
-          </ul>
         </div>
       </section>
 
