@@ -175,8 +175,11 @@ const IndexPage = () => (
             <strong>Full Stack Developers,</strong> Programmers, Educators, and
             Information Security Researchers.
           </p>
-          <Link to="/AboutUs" className="button primary large">
+          <Link to="/AboutUs" className="button primary small">
             View Team Members
+          </Link>{' '}
+          <Link to="/OpenSourceProjects" className="button small">
+            Open Source Projects
           </Link>
         </div>
       </section>
