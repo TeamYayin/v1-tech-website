@@ -7,9 +7,9 @@ export default function ContactForm() {
       </header>
       <div className="content">
         <p>
-          <strong>Auctor commodo</strong> interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-          mattis sagittis.
+          <strong>Would you like</strong> to request our services, learn more
+          about our products, or join our team, please submit the below form
+          with associated information. You can also reach on social media.
         </p>
         <form method="post" action="https://formspree.io/mrgyrdgl">
           <div className="fields">

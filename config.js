@@ -10,7 +10,7 @@ module.exports = {
   // pathPrefix: This path is subpath of your hosting https://domain/pathPrefix
 
   heading: 'Yayin AI Labs',
-  subHeading: 'High School Kid & Part time Web Slinger',
+  subHeading: 'Build, Develop, and Collaborate on innovative designs.',
 
   // social media likes add your channels
   socialLinks: [

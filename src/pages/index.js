@@ -13,74 +13,54 @@ import { Link } from 'gatsby'
 
 const project1_img_set = [
   {
-    src: require('../assets/img/gallery/fulls/01.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/01.jpg'),
-    title: 'Great Sky',
-    desc: 'Be one with the Universe',
+    src: require('../assets/img/gallery/fulls/blog-awsdnerd-1.webp'),
+    thumbnail: require('../assets/img/gallery/thumbs/blog-awsdnerd-1.webp'),
+    title: 'Landing Page Image',
+    desc: 'a washedup nerd blog home page',
     full: true,
   },
   {
-    src: require('../assets/img/gallery/fulls/02.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/02.jpg'),
-    title: 'High Mountains',
-    desc: 'Be one with the mountains',
+    src: require('../assets/img/gallery/fulls/blog-awsdnerd-2.webp'),
+    thumbnail: require('../assets/img/gallery/thumbs/blog-awsdnerd-2.webp'),
+    title: 'Bhaasha Landing Page Image',
+    desc: 'A sub blog bhasha under Washedup Nerd blog',
   },
   {
-    src: require('../assets/img/gallery/fulls/03.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/03.jpg'),
-    title: 'Any time ',
-    desc: 'Be one with the time',
+    src: require('../assets/img/gallery/fulls/blog-awsdnerd-3.webp'),
+    thumbnail: require('../assets/img/gallery/thumbs/blog-awsdnerd-3.webp'),
+    title: 'Dev Landing Page Image',
+    desc: 'Dev sub blog under Washedup Nerd blog',
   },
   {
-    src: require('../assets/img/gallery/fulls/04.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/04.jpg'),
-    title: 'Any source of light',
-    desc: 'Be one with the light',
+    src: require('../assets/img/gallery/fulls/blog-awsdnerd-4.webp'),
+    thumbnail: require('../assets/img/gallery/thumbs/blog-awsdnerd-4.webp'),
+    title: 'IELTS Landing Page Image',
+    desc: 'English learning sub blog under Washedup Nerd blog',
     full: true,
   },
 ]
 const project2_img_set = [
   {
-    src: require('../assets/img/gallery/fulls/05.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/05.jpg'),
-    title: 'Any Curiosity',
-    desc: 'Be one with the curiosity',
+    src: require('../assets/img/gallery/fulls/makers-keyboard-1.webp'),
+    thumbnail: require('../assets/img/gallery/thumbs/makers-keyboard-1.webp'),
+    title: 'Telugu Keyboard Image',
+    desc: 'A 75% mechanical keyboard with proirity to regional legends',
     full: true,
   },
   {
-    src: require('../assets/img/gallery/fulls/06.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/06.jpg'),
-    title: 'Any source of enlightenment',
-    desc: 'Be one with the soul',
+    src: require('../assets/img/gallery/fulls/makers-keyboard-2.webp'),
+    thumbnail: require('../assets/img/gallery/thumbs/makers-keyboard-2.webp'),
+    title: 'Coming Soon Image',
+    desc: 'Keep Watching',
   },
   {
-    src: require('../assets/img/gallery/fulls/07.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/07.jpg'),
-    title: 'Be in present',
-    desc: 'Be one with the present',
+    src: require('../assets/img/gallery/fulls/makers-keyboard-3.webp'),
+    thumbnail: require('../assets/img/gallery/thumbs/makers-keyboard-3.webp'),
+    title: 'Coming Soon Image',
+    desc: 'Keep Watching',
   },
 ]
-const project3_img_set = [
-  {
-    src: require('../assets/img/gallery/fulls/08.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/08.jpg'),
-    title: 'Give away',
-    desc: 'Be one with the empathy',
-  },
-  {
-    src: require('../assets/img/gallery/fulls/09.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/09.jpg'),
-    title: 'Moment',
-    desc: 'Be one with the moment',
-  },
-  {
-    src: require('../assets/img/gallery/fulls/10.jpg'),
-    thumbnail: require('../assets/img/gallery/thumbs/10.jpg'),
-    title: 'Serenity',
-    desc: 'Be one with the purity',
-    full: true,
-  },
-]
+
 const IndexPage = () => (
   <Layout>
     <div id="wrapper">
@@ -95,70 +75,71 @@ const IndexPage = () => (
 
       <section id="first">
         <header>
-          <h2>Highlights</h2>
+          <h2>Our Story</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing
-            elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Etiam
-            tristique libero eu nibh porttitor amet fermentum. Nullam venenatis
-            erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+            <strong>Started in 2020</strong>, At Yayin, we believe that
+            collaboration with the community encourages our product designs
+            while working and experimenting on our innovative ideas in computing
+            and electronics.
           </p>
+          <ul className="feature-icons">
+            <li className="icon solid fa-cog">Makers</li>
+            <li className="icon solid fa-code">Training</li>
+          </ul>
           <span className="image main">
-            <img src={pic2} alt="" />
+            <img src={pic2} alt="circuit silicon art" />
           </span>
         </div>
       </section>
 
       <section>
         <header>
-          <h2>Services & Skills</h2>
+          <h2>Services</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Etiam tristique libero</strong> eu nibh porttitor amet
-            fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies
-            condimentum.
+            <strong>Although we are</strong> product-driven, we sporadically
+            offer below services designed to help any business or its products.
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Consequat tempus</li>
-            <li className="icon fa-bolt">Etiam adipiscing</li>
-            <li className="icon fa-signal">Libero nullam</li>
-            <li className="icon fa-gear">Blandit condimentum</li>
-            <li className="icon fa-map-marker">Lorem ipsum dolor</li>
-            <li className="icon fa-code">Nibh amet venenatis</li>
+            <li className="icon solid fa-laptop">Web Development</li>
+            <li className="icon solid fa-mobile">Mobile Apps</li>
+            <li className="icon solid fa-bug">Hunt and Fix</li>
+            <li className="icon solid fa-user-secret">Analyze Risks</li>
           </ul>
-          <p>
-            Vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
-          </p>
         </div>
       </section>
 
       <section>
         <header>
-          <h2>What We Do</h2>
+          <h2>What We Accomplished</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Integer mollis egestas</strong> nam maximus erat id euismod
-            egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
+            <strong>Products, Clients, and</strong> Projects, which we are
+            currently working on or designed and developed in the last few
+            months.
           </p>
 
           <section>
             <header>
-              <a href="https://www.example.com" className="large">
+              <a href="https://awashedupnerd.in/" className="large">
                 <h3>A Washedup Nerd Blog</h3>
               </a>
               <p>
-                Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
-                etiam consequat, et lorem adipiscing sed dolor sit amet,
-                consectetur amet do eiusmod tempor incididunt ipsum suspendisse
-                ultrices gravida.
+                We designed this blog to aggregate curated learning resources
+                mined from open internet for Java, Python, Javascript, other
+                tech stacks, and information security titbits. We also maintain
+                the Blog content and follow the blog for updates on products
+                developed at Yayin.
+              </p>
+              <p>
+                We also talk about opensource technologies for blogging and
+                hosting web content in Indo-Aryan and Dravidian languages. A
+                subdomain of the blog covers learning resources for IELTS and
+                other English Language Tests.
               </p>
             </header>
             <div className="content">
@@ -168,14 +149,12 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <Link to="/Elements" className="large">
+              <Link to="/AboutUs" className="large">
                 <h3>Makers Products</h3>
               </Link>
               <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-                aliquam sed facilisis ante interdum congue. Integer mollis, nisl
-                amet convallis, porttitor magna ullamcorper, amet mauris. Ut
-                magna finibus nisi nec lacinia ipsum maximus.
+                Mechanical keyboards with primary layouts in regional indian
+                languages.
               </p>
             </header>
             <div className="content">
@@ -184,37 +163,21 @@ const IndexPage = () => (
               </div>
             </div>
           </section>
-
-          <section>
-            <header>
-              <Link to="/Elements" className="large">
-                <h3>Modifoils.com</h3>
-              </Link>
-              <p>
-                Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-                feugiat tempus aenean ornare velit lacus, ac varius sed enim
-                lorem ullamcorper dolore. ac varius enim lorem ullamcorper
-                dolore. Proin aliquam facilisis.
-              </p>
-            </header>
-            <div className="content">
-              <div className="gallery">
-                <Gallery images={project3_img_set} />
-              </div>
-            </div>
-          </section>
         </div>
       </section>
 
       <section>
         <header>
-          <h2>About Us</h2>
+          <h2>Our Team</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Elements</strong> This starter contains all elements for a
-            page. Check it out
+            <strong>Full Stack Developers,</strong> Programmers, Educators, and
+            Information Security Researchers.
           </p>
+          <Link to="/AboutUs" className="button primary large">
+            View Team Members
+          </Link>
         </div>
       </section>
 
