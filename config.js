@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Paradigmshift', // <title>
-  manifestName: 'paradigmshift',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Yayin AI Labs', // <title>
+  manifestName: 'Yayin AI Labs',
+  manifestShortName: 'Yayin AI Lab', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
