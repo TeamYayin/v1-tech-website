@@ -50,14 +50,14 @@ const project2_img_set = [
   {
     src: require('../assets/img/gallery/fulls/makers-keyboard-2.webp'),
     thumbnail: require('../assets/img/gallery/thumbs/makers-keyboard-2.webp'),
-    title: 'Coming Soon Image',
+    title: 'Coming Soon Hindi Image',
     desc: 'Keep Watching',
   },
   {
     src: require('../assets/img/gallery/fulls/makers-keyboard-3.webp'),
     thumbnail: require('../assets/img/gallery/thumbs/makers-keyboard-3.webp'),
-    title: 'Coming Soon Image',
-    desc: 'Keep Watching',
+    title: 'Coming Soon Tamil Image',
+    desc: 'Keep Watching This Space',
   },
 ]
 
