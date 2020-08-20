@@ -169,6 +169,12 @@ const IndexPage = () => (
       <section>
         <header>
           <h2>Our Team</h2>
+          <p>
+            Schedule a virtual meeting{' '}
+            <a href="https://calendly.com/reach-py563/yayin">
+              <span className="icon solid fa-laptop"></span>
+            </a>
+          </p>
         </header>
         <div className="content">
           <p>
