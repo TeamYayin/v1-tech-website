@@ -178,9 +178,9 @@ const IndexPage = () => (
           <Link to="/AboutUs" className="button primary small">
             View Team Members
           </Link>{' '}
-          <Link to="/OpenSourceProjects" className="button small">
+          <a href="https://teamyayin.github.io/" className="button small">
             Open Source Projects
-          </Link>
+          </a>
         </div>
       </section>
 
