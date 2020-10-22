@@ -32,7 +32,7 @@ module.exports = {
     {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
-      url: 'https://linkedin.com/#',
+      url: 'https://www.linkedin.com/company/yayinlabs/',
     },
   ],
   emailId: 'ask@yayinailab.tech',
