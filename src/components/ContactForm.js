@@ -14,7 +14,13 @@ export default function ContactForm() {
         <form method="post" action="https://formspree.io/mrgyrdgl">
           <div className="fields">
             <div className="field half">
-              <input type="text" name="name" id="name" placeholder="Name" />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
             </div>
             <div className="field half">
               <input
@@ -22,6 +28,7 @@ export default function ContactForm() {
                 name="_replyto"
                 id="email"
                 placeholder="Email"
+                required
               />
             </div>
             <div className="field">
@@ -40,6 +47,11 @@ export default function ContactForm() {
                 value="Send Message"
                 className="button primary"
               />
+            </li>
+            <li>
+              <a href="https://yayin-ai-labs.breezy.hr/" className="button">
+                Join Our Team
+              </a>
             </li>
           </ul>
           <input type="text" name="_gotcha" style={{ display: 'none' }} />
