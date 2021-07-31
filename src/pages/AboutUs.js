@@ -24,6 +24,8 @@ const IndexPage = () => (
             </li>
           </ul>
         </header>
+        </section>
+        <section id="first">
         <div className="content">
           <div className="row"></div>
           <ul className="feature-icons">
@@ -43,7 +45,7 @@ const IndexPage = () => (
           </ul>
         </div>
       </section>
-      <section id="first">
+      <section>
         {' '}
         <header>
           <h2> Work Life at Yayin</h2>
