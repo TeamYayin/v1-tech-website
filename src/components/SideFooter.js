@@ -38,6 +38,9 @@ export default function SideFooter() {
             })}
           </ul>
         </li>
+        <li>
+          <h3><a href="/privacyPolicy">Privacy Policy</a></h3>
+        </li>
       </ul>
     </footer>
   )
