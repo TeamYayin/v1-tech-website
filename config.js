@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Yayin AI Labs', // <title>
-  manifestName: 'Yayin AI Labs',
+  siteTitle: 'Yayin AI Lab', // <title>
+  manifestName: 'Yayin AI Lab',
   manifestShortName: 'Yayin AI Lab', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -32,7 +32,7 @@ module.exports = {
     {
       icon: 'fa-linkedin',
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/company/yayinlabs/',
+      url: 'https://www.linkedin.com/company/yayinlab/',
     },
   ],
   emailId: 'ask@yayinailab.tech',
