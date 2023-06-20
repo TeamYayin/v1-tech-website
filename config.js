@@ -36,6 +36,6 @@ module.exports = {
     },
   ],
   emailId: 'ask@yayinailab.tech',
-  phone: '+1‪9294631030‬',
+  phone: '+91-9182398852',
   address: 'Hyderabad, TG, India',
 }
