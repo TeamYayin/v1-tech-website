@@ -1,4 +1,8 @@
-# gatsby-starter-paradigm-shift
+# Version 1 - yayinailab website
+
+> Archived it
+
+theme --> gatsby-starter-paradigm-shift
 
 Gatsby.js starter based on the Paradigm Shift site template, designed by HTML5 UP.
 
